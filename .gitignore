@@ -1,1 +1,4 @@
 *.pdf
+*.kra
+img/*.kra
+img-raw/*
