@@ -17,6 +17,7 @@ oriented programming in natural language that will be familiar to children aroun
 - [ ] Original work
     - It is, but I should add some citations for some of the stuff I say in `reference.html`
 - [x] At least 6 images (in the `img` folder, created by me)
+    - The PNGs are a little crusty. I want to convert them to standalone SVG, with some nicer PNGs as fallback.
 - [x] One video: YouTube embed on `resources.html`
 - [x] `meta` tags on each page
 - [ ] Working form with 4-5 types of elements
