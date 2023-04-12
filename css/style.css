@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Didact+Gothic&family=Marhey:wght@500&display=swap');
+
+/* defaults */
+html {
+    box-sizing: border-box;
+}
+* {
+    box-sizing: inherit;
+}
+body {
+    font-family: 'Didact Gothic', 'Avant Garde', 'Trebuchet MS', sans-serif;
+    background-color: lightcyan;
+}
