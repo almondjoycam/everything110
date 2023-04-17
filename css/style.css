@@ -84,8 +84,8 @@ main {
     margin: 1em;
 }
 main img {
-    width: 40%;
-    height: auto;
+    height: 40vw;
+    width: auto;
 }
 main a {
     text-decoration: none;
@@ -112,7 +112,7 @@ main a:active {
         font-size: 1.3em;
     }
     main img {
-        width: 20%;
+        height: 20vw;
     }
 }
 
@@ -155,7 +155,7 @@ main .next {
 aside {
     margin: 1em;
     padding: 1em;
-/*    background-color: #ffb937;*/
+    background-color: #ffb937;
     color: #28075a;
     border-radius: 17px;
 }
@@ -171,9 +171,10 @@ aside a:active {
     border-bottom: 1px dotted #28075a;
 }
 
-tr {
+table {
     padding: 1em;
     background-color: powderblue;
+    border: 1px solid darkslategrey;
 }
 
 @media screen and (min-width: 800px) {
