@@ -10,7 +10,8 @@ oriented programming in natural language that will be familiar to children aroun
 - I still need to write some content in Reference
 - My feedback form is unfinished
 - I'd like to use CSS grid for the tutorial layout
-
+- I haven't aligned a lot of images
+- The underlines for the current section aren't there yet
 - [x] All code written using [Kate](https://kate-editor.org/), a text editor developed by the KDE community
 - [x] Published (using GitHub Pages) to [Everything Is An Object!](https://almondjoycam.github.io/everything110/index.html)
 - [x] Home page for the site
