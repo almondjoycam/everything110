@@ -5,7 +5,7 @@ oriented programming in natural language that will be familiar to children aroun
 
 ---
 
-## Milestone 4 Progress
+## Milestone 5 Progress
 
 - [x] All code written using [Kate](https://kate-editor.org/), a text editor developed by the KDE community
 - [x] Published (using GitHub Pages) to [Everything Is An Object!](https://almondjoycam.github.io/everything110/index.html)
@@ -17,7 +17,7 @@ oriented programming in natural language that will be familiar to children aroun
 - [ ] Original work
     - It is, but I should add some citations for some of the stuff I say in `reference.html`
 - [x] At least 6 images (in the `img` folder, created by me)
-    - The PNGs are a little crusty. I want to convert them to standalone SVG, with some nicer PNGs as fallback.
+    - There are SVGs now!
 - [x] One video: YouTube embed on `resources.html`
 - [x] `meta` tags on each page
 - [ ] Working form with 4-5 types of elements
@@ -28,13 +28,13 @@ oriented programming in natural language that will be familiar to children aroun
     - [x] One link to an **external website**: `resources.html`
     - [x] One link **within** the website: `reference.html`
     - [x] Consistent **navbar** on all pages
-- [ ] Consistent header with logo
-    - The header currently is just the navbar
+- [x] Consistent header with logo
+    - Added site logo / styling to navbar
 - [x] Consistent footer on all pages
 - [ ] One external style sheet
     - in `css/style.css`, but that's an empty file
-- [ ] Responsive to multiple screen widths
-    - I included the `meta viewport` tag on all pages but that's about it
+- [x] Responsive to multiple screen widths
+    - The navbar's flexbox is funny now
 - [ ] W3C standards
 - [x] Proper indentation
 
