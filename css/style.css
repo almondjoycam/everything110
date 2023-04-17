@@ -137,7 +137,7 @@ footer p {
     padding: 0;
 }
 footer p img {
-    height: 0.5em;
+    height: 0.5em !important;
 }
 footer a {
     color: #28075a;
