@@ -7,6 +7,10 @@ oriented programming in natural language that will be familiar to children aroun
 
 ## Milestone 5 Progress
 
+- I still need to write some content in Reference
+- My feedback form is unfinished
+- I'd like to use CSS grid for the tutorial layout
+
 - [x] All code written using [Kate](https://kate-editor.org/), a text editor developed by the KDE community
 - [x] Published (using GitHub Pages) to [Everything Is An Object!](https://almondjoycam.github.io/everything110/index.html)
 - [x] Home page for the site

@@ -118,6 +118,7 @@ main a:active {
 
 /* main buttons */
 main .button {
+    margin-top: 1em;
     padding: 0.5em;
     width: 8em;
     text-align: center;
@@ -180,6 +181,7 @@ table {
 @media screen and (min-width: 800px) {
     aside {
         float: left;
+        position: sticky;
     }
     main section {
         width: 60%;
