@@ -83,6 +83,21 @@ nav ul li:hover, nav ul li:active {
 main {
     margin: 1em;
 }
+main img {
+    width: 30%;
+    height: auto;
+}
+main a {
+    text-decoration: none;
+}
+main a:link,
+main a:visited {
+    color: #28075a;
+}
+main a:hover,
+main a:active {
+    border-bottom: 1px dotted #28075a;
+}
 
 @media screen and (min-width: 800px) {
     main {
@@ -119,11 +134,41 @@ main .button:active {
 main .begin {
     margin: auto;
 }
+main .prev {
+    float: left;
+}
+main .next {
+    float: right;
+}
 
 @media screen and (min-width: 800px) {
     main .button {
         font-family: 'Balsamiq Sans';
         font-size: 1.5em;
+    }
+}
+
+/* ref aside */
+aside {
+    margin: 1em;
+    padding: 1em;
+    background-color: #ffb937;
+    color: #28075a;
+    border-radius: 17px;
+}
+aside li {
+    display: block;
+}
+
+@media screen and (min-width: 800px) {
+    aside {
+        float: left;
+    }
+    main section:nth-child(odd) {
+        float: right;
+    }
+    main section:nth-child(even) {
+        float: left;
     }
 }
 
