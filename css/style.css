@@ -13,4 +13,54 @@ html {
 body {
     font-family: 'Didact Gothic', 'Avant Garde', 'Trebuchet MS', sans-serif;
     background-color: lightcyan;
+    color: darkslategrey;
+    margin: 0;
+}
+
+/* nav */
+header {
+    width: 100%;
+}
+nav ul {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    background-color: orange;
+    margin: 0;
+    align-items: baseline;
+}
+nav ul li {
+    display: block;
+    margin: 1%;
+    padding: 1em;
+    color: #28075a;
+    font-size: 1.5em;
+}
+nav ul li.logo {
+    flex-grow: 10;
+    font-size: 2em;
+    padding: 1em 0 0 1em;
+    margin: 0;
+    font-family: 'Marhey', fantasy;
+}
+nav ul li img {
+    height: 1em;
+    margin-right: 5px;
+}
+nav ul li a {
+    text-decoration: none;
+    text-align: center;
+}
+nav ul li a:link {
+    color: #28075a;
+}
+nav ul li a:hover {
+    background-color:
+}
+
+/* main */
+main {
+    width: 80%;
+    margin: auto;
 }
