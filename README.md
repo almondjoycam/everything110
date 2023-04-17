@@ -31,7 +31,7 @@ oriented programming in natural language that will be familiar to children aroun
 - [x] Consistent header with logo
     - Added site logo / styling to navbar
 - [x] Consistent footer on all pages
-- [ ] One external style sheet
+- [x] One external style sheet
     - in `css/style.css`, but that's an empty file
 - [x] Responsive to multiple screen widths
     - The navbar's flexbox is funny now
