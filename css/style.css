@@ -174,8 +174,11 @@ aside a:active {
 
 table {
     padding: 1em;
-    background-color: powderblue;
+    background-color: #c0f3f3;
     border: 1px solid darkslategrey;
+}
+tr {
+    padding: 0 1em;
 }
 
 @media screen and (min-width: 800px) {
