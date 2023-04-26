@@ -148,6 +148,8 @@ main .next {
 @media screen and (min-width: 800px) {
     main .button {
         font-family: 'Balsamiq Sans';
+    }
+    main .begin {
         font-size: 1.5em;
     }
 }
@@ -181,10 +183,12 @@ tr {
     padding: 0 1em;
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 992px) {
     aside {
         float: left;
         position: sticky;
+        top: 1em;
+        left: 1em;
     }
     main section {
         width: 60%;
