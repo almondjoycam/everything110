@@ -154,6 +154,16 @@ main .next {
     }
 }
 
+/* tut specific */
+section.tut {
+/*    display: grid;*/
+/*     grid-template-columns: auto auto; */
+}
+section.tut p {
+/*     grid-column: 1 / span 2; */
+    clear: both;
+}
+
 /* ref specific */
 aside {
     margin: 1em;

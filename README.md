@@ -9,7 +9,11 @@ oriented programming in natural language that will be familiar to children aroun
 
 - [x] Reference page is updated with overrides and inherited methods
 - [ ] Not really sure what to do about the feedback form.
-- [ ] I'd like to use CSS grid for the tutorial layout
+- Tutorial-specific layout:
+    - Using grid will not be mobile-friendly
+    - [ ] Add `p` classes as follows: `narration` and `dialogue`
+    - [ ] Make sure `narration` is styled with `clear: both;`
+    - [ ] Use `nth-of-type` to align `img` and `dialogue` alternately
 - [ ] I haven't aligned a lot of images
 - [x] The current section is highlighted in the nav bar
 
