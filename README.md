@@ -1,17 +1,20 @@
 # everything110
 
-**Everything Is An Object**: A website providing a narrative based on concepts of object-
+[**Everything Is An Object**](https://almondjoycam.github.io/everything110/index.html): A website providing a narrative based on concepts of object-
 oriented programming in natural language that will be familiar to children around the ages of 8-12 years.
 
 ---
 
-## Milestone 5 Progress
+## To Do List
 
-- I still need to write some content in Reference
-- My feedback form is unfinished
-- I'd like to use CSS grid for the tutorial layout
-- I haven't aligned a lot of images
-- The underlines for the current section aren't there yet
+- [x] Reference page is updated with overrides and inherited methods
+- [ ] Not really sure what to do about the feedback form.
+- [ ] I'd like to use CSS grid for the tutorial layout
+- [ ] I haven't aligned a lot of images
+- [x] The current section is highlighted in the nav bar
+
+## ITD 110 Final Project Information
+
 - [x] All code written using [Kate](https://kate-editor.org/), a text editor developed by the KDE community
 - [x] Published (using GitHub Pages) to [Everything Is An Object!](https://almondjoycam.github.io/everything110/index.html)
 - [x] Home page for the site
@@ -19,10 +22,8 @@ oriented programming in natural language that will be familiar to children aroun
     - The homepage needs to be `index.html` to work with GitHub pages, but all parts of the site can be accessed through `project.html`.
 - [x] At least 6 webpages
 - [ ] Each page has at least 250 words of text
-- [ ] Original work
-    - It is, but I should add some citations for some of the stuff I say in `reference.html`
+- [x] Original work
 - [x] At least 6 images (in the `img` folder, created by me)
-    - There are SVGs now!
 - [x] One video: YouTube embed on `resources.html`
 - [x] `meta` tags on each page
 - [ ] Working form with 4-5 types of elements
@@ -34,12 +35,9 @@ oriented programming in natural language that will be familiar to children aroun
     - [x] One link **within** the website: `reference.html`
     - [x] Consistent **navbar** on all pages
 - [x] Consistent header with logo
-    - Added site logo / styling to navbar
 - [x] Consistent footer on all pages
 - [x] One external style sheet
-    - in `css/style.css`, but that's an empty file
 - [x] Responsive to multiple screen widths
-    - The navbar's flexbox is funny now
 - [ ] W3C standards
 - [x] Proper indentation
 

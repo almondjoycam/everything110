@@ -198,6 +198,7 @@ th, td {
         position: sticky;
         top: 1em;
         left: 1em;
+        width: 20vw;
     }
     main#ref {
         margin-left: 25vw;
