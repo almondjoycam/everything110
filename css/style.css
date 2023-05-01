@@ -199,6 +199,9 @@ th, td {
         top: 1em;
         left: 1em;
     }
+    main#ref {
+        margin-left: 25vw;
+    }
     main section {
         width: 60%;
     }
