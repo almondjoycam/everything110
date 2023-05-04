@@ -160,6 +160,7 @@ section.tut p.narr {
 }
 section.tut p.dial {
     quotes: '\201C' '\201D';
+    width: 100%;
 }
 section.tut img:nth-of-type(odd) {
     float: left;
