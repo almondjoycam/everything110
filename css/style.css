@@ -112,7 +112,7 @@ main a:active {
         font-size: 1.3em;
     }
     main img {
-        height: 20vw;
+        height: 15vw;
     }
 }
 
@@ -167,9 +167,11 @@ section.tut img:nth-of-type(odd) {
 }
 section.tut img:nth-of-type(even) {
     float: right;
+    transform: scaleX(-1);
 }
-main nav {
+section.tut, main nav {
     clear: both;
+    width: 100%;
 }
 
 /* ref specific */
