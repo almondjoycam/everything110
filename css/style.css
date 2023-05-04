@@ -155,12 +155,19 @@ main .next {
 }
 
 /* tut specific */
-section.tut {
-/*    display: grid;*/
-/*     grid-template-columns: auto auto; */
+section.tut p.narr {
+    clear: both;
 }
-section.tut p {
-/*     grid-column: 1 / span 2; */
+section.tut p.dial {
+    quotes: '\201C' '\201D';
+}
+section.tut img:nth-of-type(odd) {
+    float: left;
+}
+section.tut img:nth-of-type(even) {
+    float: right;
+}
+main nav {
     clear: both;
 }
 
@@ -210,7 +217,7 @@ th, td {
         left: 1em;
         width: 20vw;
     }
-    main#ref {
+    main.ref {
         margin-left: 25vw;
     }
     main section {
