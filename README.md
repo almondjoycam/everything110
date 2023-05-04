@@ -9,13 +9,19 @@ oriented programming in natural language that will be familiar to children aroun
 
 - [x] Reference page is updated with overrides and inherited methods
 - [ ] Not really sure what to do about the feedback form.
+    - will probably remove
 - Tutorial-specific layout:
     - Using grid will not be mobile-friendly
-    - [ ] Add `p` classes as follows: `narration` and `dialogue`
-    - [ ] Make sure `narration` is styled with `clear: both;`
-    - [ ] Use `nth-of-type` to align `img` and `dialogue` alternately
-- [ ] I haven't aligned a lot of images
+    - [x] Add `p` classes as follows: `narration` and `dialogue`
+    - [x] Make sure `narration` is styled with `clear: both;`
+    - [x] Use `nth-of-type` to align `img` and `dialogue` alternately
+    - [ ] Should probably do something about the collapsing margins
+- [ ] Float images on home and reference
 - [x] The current section is highlighted in the nav bar
+- [ ] Work on the external resources page
+    - [ ] Add descriptions for the links
+    - [ ] Style the iframe so it is borderless
+- [ ] Add `aria-label` attributes to... everything I guess!
 
 ## ITD 110 Final Project Information
 
