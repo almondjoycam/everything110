@@ -84,11 +84,8 @@ main {
     margin: 1em;
 }
 main img {
-    height: 30vw;
+    height: 40vw;
     width: auto;
-}
-main h1 {
-    font-size: 10vw;
 }
 main a {
     text-decoration: none;
@@ -102,13 +99,7 @@ main a:active {
     border-bottom: 1px dotted #28075a;
 }
 
-@media screen and (min-width: 400px) {
-    main h1 {
-        font-size: 2em;
-    }
-}
-
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 600px) {
     main {
         width: 60vw;
         margin: auto;
@@ -169,18 +160,7 @@ section.tut p.narr {
 }
 section.tut p.dial {
     quotes: '\201C' '\201D';
-    width: 80%;
-    margin: 0 2em;
-    text-align: center;
-}
-section.tut p.dial::before {
-    content: open-quote;
-}
-section.tut p.dial::after {
-    content: close-quote;
-}
-section.tut img {
-    margin: 1em 2em 2em 1em;
+    width: 100%;
 }
 section.tut img:nth-of-type(odd) {
     float: left;
