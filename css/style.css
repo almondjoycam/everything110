@@ -163,32 +163,32 @@ main .next {
 }
 
 /* tut specific */
-section.tut p.narr {
+main.tut p.narr {
     clear: both;
 }
-section.tut p.dial {
+main.tut p.dial {
     quotes: '\201C' '\201D';
     width: 80%;
     margin: 0 2em;
     text-align: center;
 }
-section.tut p.dial::before {
+main.tut p.dial::before {
     content: open-quote;
 }
-section.tut p.dial::after {
+main.tut p.dial::after {
     content: close-quote;
 }
-section.tut img {
+main.tut img {
     margin: 1em 2em;
 }
-section.tut img:nth-of-type(odd) {
+main.tut img:nth-of-type(odd) {
     float: left;
 }
-section.tut img:nth-of-type(even) {
+main.tut img:nth-of-type(even) {
     float: right;
     transform: scaleX(-1);
 }
-section.tut, main nav {
+main.tut nav {
     clear: both;
     width: 100%;
 }
@@ -242,13 +242,13 @@ th, td {
     main.ref {
         margin-left: 25vw;
     }
-    main section {
+    main.ref section {
         width: 60%;
     }
-    main section:nth-child(odd) {
+    main.ref section:nth-child(odd) {
         float: right;
     }
-    main section:nth-child(even) {
+    main.ref section:nth-child(even) {
         float: left;
     }
 }
