@@ -1,0 +1,436 @@
+{
+    "captions": [
+        {
+            "time": 5,
+            "text": "Take a look around the room you're in right now."
+        },
+        {
+            "time": 8,
+            "text": "What do you see?"
+        },
+        {
+            "time": 10,
+            "text": "Whatever is closest to you,"
+        },
+        {
+            "time": 12,
+            "text": "Try picking it up."
+        },
+        {
+            "time": 14,
+            "text": "Did anything else in the room move"
+        },
+        {
+            "time": 15,
+            "text": "When you did that?"
+        },
+        {
+            "time": 16,
+            "text": "Unless you have mind control,"
+        },
+        {
+            "time": 19,
+            "text": "Probably not."
+        },
+        {
+            "time": 20,
+            "text": "This is because objects around you"
+        },
+        {
+            "time": 22,
+            "text": "Can be changed"
+        },
+        {
+            "time": 23,
+            "text": "Without affecting any other objects."
+        },
+        {
+            "time": 26,
+            "text": "Here's another example."
+        },
+        {
+            "time": 28,
+            "text": "Let's say you decide to take your family's car"
+        },
+        {
+            "time": 31,
+            "text": "And paint it rainbow."
+        },
+        {
+            "time": 33,
+            "text": "Would all the other cars in the world"
+        },
+        {
+            "time": 35,
+            "text": "Turn rainbow too?"
+        },
+        {
+            "time": 37,
+            "text": "No way!"
+        },
+        {
+            "time": 38,
+            "text": "Not even your neighbor's car"
+        },
+        {
+            "time": 40,
+            "text": "That looked exactly the same as yours."
+        },
+        {
+            "time": 42,
+            "text": "But why not?"
+        },
+        {
+            "time": 43,
+            "text": "You can lift your pencil or paint a car"
+        },
+        {
+            "time": 46,
+            "text": "Without affecting anything else"
+        },
+        {
+            "time": 48,
+            "text": "Because the world is made up of"
+        },
+        {
+            "time": 50,
+            "text": "Individual objects!"
+        },
+        {
+            "time": 52,
+            "text": "There is a type of coding language"
+        },
+        {
+            "time": 54,
+            "text": "That mirrors how the world works."
+        },
+        {
+            "time": 56,
+            "text": "It is called \"Object-Oriented Programming,\""
+        },
+        {
+            "time": 60,
+            "text": "or \"OOP.\""
+        },
+        {
+            "time": 61,
+            "text": "In OOP, a programmer organizes code"
+        },
+        {
+            "time": 64,
+            "text": "Into self-contained objects,"
+        },
+        {
+            "time": 67,
+            "text": "Similar to the objects that are all around you."
+        },
+        {
+            "time": 70,
+            "text": "So, why is it useful for code to be object-oriented?"
+        },
+        {
+            "time": 74,
+            "text": "We've talked about code before as just"
+        },
+        {
+            "time": 77,
+            "text": "A simple sequence of instructions,"
+        },
+        {
+            "time": 79,
+            "text": "And a lot of programs are built like this."
+        },
+        {
+            "time": 82,
+            "text": "But what if you want to write a program"
+        },
+        {
+            "time": 84,
+            "text": "For something really big and complex,"
+        },
+        {
+            "time": 87,
+            "text": "Like a game?"
+        },
+        {
+            "time": 88,
+            "text": "Game code can be a few thousand,"
+        },
+        {
+            "time": 90,
+            "text": "To millions of lines of code long."
+        },
+        {
+            "time": 93,
+            "text": "Without any clear organization,"
+        },
+        {
+            "time": 95,
+            "text": "Your list of instructions would end up"
+        },
+        {
+            "time": 97,
+            "text": "All jumbled, like a plate of spaghetti."
+        },
+        {
+            "time": 100,
+            "text": "With so many intertwined noodles,"
+        },
+        {
+            "time": 102,
+            "text": "It would be nearly impossible to pull one out"
+        },
+        {
+            "time": 104,
+            "text": "Without disrupting the others."
+        },
+        {
+            "time": 107,
+            "text": "In OOP,"
+        },
+        {
+            "time": 108,
+            "text": "We can organize code in such a way"
+        },
+        {
+            "time": 110,
+            "text": "That it becomes easier to maintain and change."
+        },
+        {
+            "time": 113,
+            "text": "Almost everything you see in a game program"
+        },
+        {
+            "time": 116,
+            "text": "Has its own stuff, like data and actions,"
+        },
+        {
+            "time": 119,
+            "text": "That are totally separate from"
+        },
+        {
+            "time": 121,
+            "text": "The other things in the program."
+        },
+        {
+            "time": 123,
+            "text": "But then they work together to make the game complete."
+        },
+        {
+            "time": 126,
+            "text": "This is like pizza toppings."
+        },
+        {
+            "time": 128,
+            "text": "If we structure code as objects,"
+        },
+        {
+            "time": 130,
+            "text": "Then we can change one part"
+        },
+        {
+            "time": 132,
+            "text": "Without messing up anything else."
+        },
+        {
+            "time": 134,
+            "text": "So, you can pick off a pepperoni slice"
+        },
+        {
+            "time": 137,
+            "text": "Without it affecting the other toppings."
+        },
+        {
+            "time": 139,
+            "text": "Both types of code are valid (and delicious!)"
+        },
+        {
+            "time": 142,
+            "text": "But will be useful for different projects."
+        },
+        {
+            "time": 145,
+            "text": "We've been talking all about objects,"
+        },
+        {
+            "time": 147,
+            "text": "But what exactly are they in code?"
+        },
+        {
+            "time": 150,
+            "text": "Well, we actually have to answer this question first:"
+        },
+        {
+            "time": 153,
+            "text": "What is a class?"
+        },
+        {
+            "time": 155,
+            "text": "No, this class is not like the one you have at school."
+        },
+        {
+            "time": 158,
+            "text": "In programming,"
+        },
+        {
+            "time": 159,
+            "text": "A class is a definition, or blueprint,"
+        },
+        {
+            "time": 163,
+            "text": "From which individual objects are created."
+        },
+        {
+            "time": 166,
+            "text": "Think about a blueprint for a car."
+        },
+        {
+            "time": 168,
+            "text": "The blueprint will tell you what a car has:"
+        },
+        {
+            "time": 171,
+            "text": "A body, wheels, engine;"
+        },
+        {
+            "time": 174,
+            "text": "And what a car does,"
+        },
+        {
+            "time": 176,
+            "text": "Like drive, brake, and turn."
+        },
+        {
+            "time": 179,
+            "text": "But the blueprint itself is not a car, right?"
+        },
+        {
+            "time": 183,
+            "text": "It's just the definition of one."
+        },
+        {
+            "time": 185,
+            "text": "Take the class blueprint and use it to build a car."
+        },
+        {
+            "time": 189,
+            "text": "Now, you have an object."
+        },
+        {
+            "time": 191,
+            "text": "You can use the blueprint to make many more objects."
+        },
+        {
+            "time": 194,
+            "text": "Each one will look and behave the same."
+        },
+        {
+            "time": 196,
+            "text": "The cool part is that once the objects are created,"
+        },
+        {
+            "time": 199,
+            "text": "You can modify each one without changing the rest,"
+        },
+        {
+            "time": 202,
+            "text": "Which is why you can paint your car"
+        },
+        {
+            "time": 205,
+            "text": "Without changing your neighbor's."
+        },
+        {
+            "time": 207,
+            "text": "In other words, an object is just"
+        },
+        {
+            "time": 209,
+            "text": "The actual representation of a class."
+        },
+        {
+            "time": 212,
+            "text": "So what does all of this mean for Kodable?"
+        },
+        {
+            "time": 215,
+            "text": "Well, most of the things you see in Bug World,"
+        },
+        {
+            "time": 218,
+            "text": "Like the towers, slimes, and fur babies,"
+        },
+        {
+            "time": 221,
+            "text": "Are all individual objects"
+        },
+        {
+            "time": 223,
+            "text": "That can be controlled separately."
+        },
+        {
+            "time": 225,
+            "text": "At the start of any Bug World level,"
+        },
+        {
+            "time": 228,
+            "text": "You will determine the objects"
+        },
+        {
+            "time": 230,
+            "text": "That you will use to defeat the slimes."
+        },
+        {
+            "time": 232,
+            "text": "As you play,"
+        },
+        {
+            "time": 233,
+            "text": "Collect the fur babies to gather points,"
+        },
+        {
+            "time": 236,
+            "text": "And then use the points to create new objects."
+        },
+        {
+            "time": 240,
+            "text": "Notice the blueprint for the object's class"
+        },
+        {
+            "time": 243,
+            "text": "Shows up after the object is placed."
+        },
+        {
+            "time": 246,
+            "text": "Similar to objects in the physical world,"
+        },
+        {
+            "time": 249,
+            "text": "These objects in the game can be modified"
+        },
+        {
+            "time": 251,
+            "text": "Without affecting any other objects."
+        },
+        {
+            "time": 254,
+            "text": "Now it's your turn!"
+        },
+        {
+            "time": 255,
+            "text": "Log into Kodable, open Bug World,"
+        },
+        {
+            "time": 259,
+            "text": "And start creating and modifying objects"
+        },
+        {
+            "time": 261,
+            "text": "To defeat the slimes."
+        },
+        {
+            "time": 264,
+            "text": "Good luck!"
+        }
+    ]
+}

@@ -1,0 +1,432 @@
+WEBVTT - What Is Object-Oriented Programming? by Kodable
+
+NOTE This video was transcribed by Camber Boles
+for accessible embedding on its website.
+Use and modify as needed with credit!
+
+1
+00:05.000 --> 00:08.000
+- Take a look around the room you're in right now.
+
+2
+00:08.000 --> 00:09.000
+- What do you see?
+
+3
+00:10.000 --> 00:12.000
+- Whatever is closest to you,
+
+4
+00:12.000 --> 00:14.000
+- Try picking it up.
+
+5
+00:14.000 --> 00:16.000
+- Did anything else in the room move
+- when you did that?
+
+6
+00:17.000 --> 00:19.000
+- Unless you have mind control,
+
+7
+00:19.000 --> 00:20.000
+- Probably not.
+
+8
+00:20.000 --> 00:22.000
+- This is because objects around you
+
+9
+00:22.000 --> 00:26.000
+- Can be changed
+- without affecting any other objects.
+
+10
+00:27.000 --> 00:28.500
+- Here's another example.
+
+11
+00:28.500 --> 00:31.000
+- Let's say you decide to take your family's car
+
+12
+00:31.000 --> 00:33.000
+- And paint it rainbow.
+- <i>*not recommended</i>
+
+13
+00:33.000 --> 00:35.000
+- Would all the other cars in the world
+
+14
+00:35.000 --> 00:37.000
+- Turn rainbow too?
+
+15
+00:37.000 --> 00:38.000
+- No way!
+
+16
+00:38.000 --> 00:39.500
+- Not even your neighbor's car
+
+17
+00:39.500 --> 00:42.000
+- That looked exactly the same as yours.
+
+18
+00:42.000 --> 00:43.000
+- But why not?
+
+19
+00:43.000 --> 00:46.000
+- You can lift your pencil or paint a car
+
+20
+00:46.000 --> 00:48.000
+- Without affecting anything else
+
+21
+00:48.000 --> 00:49.500
+- Because the world is made up of
+
+22
+00:49.500 --> 00:52.000
+- Individual objects!
+
+23
+00:52.000 --> 00:54.000
+- There is a type of coding language
+
+24
+00:54.000 --> 00:56.000
+- That mirrors how the world works.
+
+25
+00:56.000 --> 01:00.000
+- It is called "Object-Oriented Programming,"
+
+26
+01:00.000 --> 01:01.000
+- or "OOP."
+
+27
+01:01.000 --> 01:04.500
+- In OOP, a programmer organizes code
+
+28
+01:04.500 --> 01:07.000
+- Into self-contained objects,
+
+29
+01:07.000 --> 01:10.000
+- Similar to the objects that are all around you.
+
+30
+01:10.000 --> 01:14.000
+- So, why is it useful for code to be object-oriented?
+
+31
+01:14.000 --> 01:17.000
+- We've talked about code before as just
+
+32
+01:17.000 --> 01:19.500
+- A simple sequence of instructions,
+
+33
+01:19.500 --> 01:22.000
+- And a lot of programs are built like this.
+
+34
+01:22.000 --> 01:24.000
+- But what if you want to write a program
+
+35
+01:24.000 --> 01:26.500
+- For something really big and complex,
+
+36
+01:26.500 --> 01:28.000
+- Like a game?
+
+37
+01:28.000 --> 01:30.500
+- Game code can be a few thousand,
+
+38
+01:30.500 --> 01:33.000
+- To millions of lines of code long.
+
+39
+01:33.000 --> 01:35.500
+- Without any clear organization,
+
+40
+01:35.500 --> 01:37.500
+- Your list of instructions would end up
+
+41
+01:37.500 --> 01:40.000
+- All jumbled, like a plate of spaghetti.
+
+42
+01:40.000 --> 01:42.500
+- With so many intertwined noodles,
+
+43
+01:42.500 --> 01:44.500
+- It would be nearly impossible to pull one out
+
+44
+01:44.500 --> 01:46.500
+- Without disrupting the others.
+
+45
+01:46.500 --> 01:48.000
+- In OOP,
+
+46
+01:48.000 --> 01:50.500
+- We can organize code in such a way
+
+47
+01:50.500 --> 01:53.500
+- That it becomes easier to maintain and change.
+
+48
+01:53.500 --> 01:56.500
+- Almost everything you see in a game program
+
+49
+01:56.500 --> 01:59.500
+- Has its own stuff, like data and actions,
+
+50
+01:59.500 --> 02:01.000
+- That are totally separate from
+
+51
+02:01.000 --> 02:02.500
+- The other things in the program,
+
+52
+02:02.500 --> 02:06.000
+- But then they work together to make the game complete.
+
+53
+02:06.000 --> 02:08.000
+- This is like pizza toppings.
+
+54
+02:08.000 --> 02:10.000
+- If we structure code as objects,
+
+55
+02:10.000 --> 02:11.500
+- Then we can change one part
+
+56
+02:11.500 --> 02:13.500
+- Without messing up anything else.
+
+57
+02:13.500 --> 02:16.500
+- So, you can pick off a pepperoni slice
+
+58
+02:16.500 --> 02:18.500
+- Without it affecting the other toppings.
+
+59
+02:18.500 --> 02:21.500
+- Both types of code are valid <i>(and delicious!)</i>
+
+60
+02:21.500 --> 02:24.500
+- But will be useful for different projects.
+
+61
+02:24.500 --> 02:26.500
+- We've been talking all about objects,
+
+62
+02:26.500 --> 02:29.500
+- But what exactly are they in code?
+
+63
+02:29.500 --> 02:32.500
+- Well, we actually have to answer this question first:
+
+64
+02:32.500 --> 02:35.000
+- What is a class?
+
+65
+02:35.000 --> 02:38.000
+- No, this class is not like the one you have at school.
+
+66
+02:38.000 --> 02:38.500
+- In programming,
+
+67
+02:38.500 --> 02:42.500
+- A class is a definition, or blueprint,
+
+68
+02:42.500 --> 02:46.000
+- From which individual objects are created.
+
+69
+02:46.000 --> 02:48.500
+- Think about a blueprint for a car.
+
+70
+02:48.500 --> 02:51.000
+- The blueprint will tell you what a car has:
+
+71
+02:51.000 --> 02:54.000
+- A body, wheels, engine;
+
+72
+02:54.000 --> 02:55.500
+- And what a car does,
+
+73
+02:55.500 --> 02:59.000
+- Like drive, brake, and turn.
+
+74
+02:59.000 --> 03:02.500
+- But the blueprint itself is not a car, right?
+
+75
+03:02.500 --> 03:04.500
+- It's just the definition of one.
+
+76
+03:04.500 --> 03:08.500
+- Take the class blueprint and use it to build a car.
+
+77
+03:08.500 --> 03:10.500
+- Now, you have an object.
+
+78
+03:10.500 --> 03:13.500
+- You can use the blueprint to make many more objects.
+
+79
+03:13.500 --> 03:16.500
+- Each one will look and behave the same.
+
+80
+03:16.500 --> 03:19.500
+- The cool part is that once the objects are created,
+
+81
+03:19.500 --> 03:22.500
+- You can modify each one without changing the rest,
+
+82
+03:22.500 --> 03:24.500
+- Which is why you can paint your car
+
+83
+03:24.500 --> 03:26.500
+- Without changing your neighbor's.
+
+84
+03:26.500 --> 03:28.500
+- In other words, an object is just
+
+85
+03:28.500 --> 03:32.000
+- The actual representation of a class.
+
+86
+03:32.000 --> 03:35.500
+- So what does all of this mean for Kodable?
+
+87
+03:35.500 --> 03:37.500
+- Well, most of the things you see in Bug World,
+
+88
+03:37.500 --> 03:40.500
+- Like the towers, slimes, and fur babies,
+
+89
+03:40.500 --> 03:42.500
+- Are all individual objects
+
+90
+03:42.500 --> 03:44.500
+- That can be controlled separately.
+
+91
+03:44.500 --> 03:47.500
+- At the start of any Bug World level,
+
+92
+03:47.500 --> 03:49.500
+- You will determine the objects
+
+93
+03:49.500 --> 03:52.000
+- That you will use to defeat the slimes.
+
+94
+03:52.000 --> 03:53.500
+- As you play,
+
+95
+03:53.500 --> 03:56.500
+- Collect the fur babies to gather points,
+
+96
+03:56.500 --> 04:00.000
+- And then use the points to create new objects.
+
+97
+04:00.000 --> 04:03.500
+- Notice the blueprint for the object's class
+
+98
+04:03.500 --> 04:06.000
+- Shows up after the object is placed.
+
+99
+04:06.000 --> 04:08.500
+- Similar to objects in the physical world,
+
+100
+04:08.500 --> 04:10.500
+- These objects in the game can be modified
+
+101
+04:10.500 --> 04:14.500
+- Without affecting any other objects.
+
+102
+04:14.500 --> 04:15.500
+- Now it's your turn!
+
+103
+04:15.500 --> 04:19.000
+- Log into Kodable, open Bug World,
+
+104
+04:19.000 --> 04:21.500
+- And start creating and modifying objects
+
+105
+04:21.500 --> 04:24.000
+- To defeat the slimes.
+
+106
+04:24.000 --> 04:26.000
+- Good luck!
