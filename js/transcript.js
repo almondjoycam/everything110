@@ -12,13 +12,20 @@ var player;
 function onYouTubeIframeAPIReady() {
     // stores information about the video player
     player = new YT.Player('transcript-video', {
-        events: { 'onStateChange': onPlayerStateChange }
+        events: {
+            'onStateChange': onPlayerStateChange,
+            'onReady': onPlayerReady
+        }
         }
     );
 }
 
 // get the transcript div from the document
-var transcriptContainer = document.getElementById('transcript');
+function onPlayerReady(event) {
+    var transcriptContainer = document.getElementById('transcript');
+}
+
+/* this part unnecessary now
 
 // access the data through a local server request
 // then parse the data as JSON
@@ -29,6 +36,9 @@ var jsonData;
 dataRequest.onload = function() {
     if (dataRequest.status === 200) {
         jsonData = JSON.parse(dataRequest.responseText);
+        if (jsonData.captions) {
+            populateTranscriptContainer(jsonData.captions);
+        }
     }
 }
 
@@ -37,7 +47,7 @@ dataRequest.send(null);
 
 // write a function to populate the container with the text
 // from the transcript file using DOM manipulation
-// TODO: put these in the HTML for accessibility
+// put these in the HTML for accessibility
 function populateTranscriptContainer(captionsArray) {
     for (var i = 0; i < captionsArray.length; i++) {
         // captionsArray[i] represents one of the caption objects
@@ -53,6 +63,7 @@ function populateTranscriptContainer(captionsArray) {
         transcriptContainer.appendChild(caption);
     }
 }
+*/
 
 // called when the video starts to play
 var timeInSeconds = 0;

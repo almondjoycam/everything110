@@ -257,6 +257,11 @@ th, td {
 iframe {
     border: none;
 }
+div#transcript {
+    height: 25vh;
+    overflow: scroll;
+    padding: 1em;
+}
 
 /* footer */
 footer {
