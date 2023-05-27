@@ -21,7 +21,7 @@ oriented programming in natural language that will be familiar to children aroun
 - [x] The current section is highlighted in the nav bar
 - [ ] Work on the external resources page
     - [ ] Add descriptions for the links
-    - [ ] Style the iframe so it is borderless
+    - [x] Style the iframe so it is borderless
 - [ ] Add `aria-label` attributes to... everything I guess!
 
 ## ITD 110 Final Project Information

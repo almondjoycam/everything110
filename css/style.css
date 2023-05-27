@@ -253,6 +253,11 @@ th, td {
     }
 }
 
+/* res specific */
+iframe {
+    border: none;
+}
+
 /* footer */
 footer {
     clear: both;
