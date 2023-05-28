@@ -21,8 +21,10 @@ function onYouTubeIframeAPIReady() {
 }
 
 // get the transcript div from the document
+var transcriptContainer;
 function onPlayerReady(event) {
-    var transcriptContainer = document.getElementById('transcript');
+//     var transcriptContainer = document.getElementById('transcript');
+    transcriptContainer = $('#transcript');
 }
 
 /* this part unnecessary now
@@ -63,11 +65,13 @@ function populateTranscriptContainer(captionsArray) {
         transcriptContainer.appendChild(caption);
     }
 }
+
 */
 
 // called when the video starts to play
 var timeInSeconds = 0;
-var currentCaptionNode = transcriptContainer.firstChild;
+var currentCaptionNode = transcriptContainer.children()[0];
+// var currentCaptionNode = transcriptContainer.firstChild;
 
 function onPlayerStateChange(event) {
     // event.data will return one of the integer status codes
@@ -92,9 +96,8 @@ var scrollOptions = {
 
 function scrollToCurrent() {
     // depends on DOM manipulation from earlier
-    // TODO: use jQuery
-    if (currentCaptionNode.id === timeInSeconds) {
+    if (currentCaptionNode.attr('id') == timeInSeconds) {
         currentCaptionNode.scrollIntoView(scrollOptions);
-        currentCaptionNode = currentCaptionNode.nextSibling;
+        currentCaptionNode = currentCaptionNode.next();
     }
 }
