@@ -21,10 +21,10 @@ function onYouTubeIframeAPIReady() {
 }
 
 // get the transcript div from the document
-var transcriptContainer;
+var transcriptContainer = $('transcript');
 function onPlayerReady(event) {
 //     var transcriptContainer = document.getElementById('transcript');
-    transcriptContainer = $('#transcript');
+//     transcriptContainer = $('#transcript');
 }
 
 /* this part unnecessary now
