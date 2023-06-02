@@ -20,8 +20,10 @@ oriented programming in natural language that will be familiar to children aroun
 - [ ] Float images on home and reference
 - [x] The current section is highlighted in the nav bar
 - [ ] Work on the external resources page
-    - [ ] Add descriptions for the links
+    - [x] Add descriptions for the links
     - [x] Style the iframe so it is borderless
+    - [x] Video Transcript
+    - [ ] LIVE video transcript
 - [ ] Add `aria-label` attributes to... everything I guess!
 
 ## ITD 110 Final Project Information
