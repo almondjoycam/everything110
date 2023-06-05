@@ -63,7 +63,7 @@ nav ul li:hover, nav ul li:active {
     background-color: #ffb937;
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 768px) {
     nav ul {
         flex-flow: row wrap;
         justify-content: flex-end;
@@ -116,11 +116,13 @@ main a:active {
         font-family: "Marhey", fantasy;
         text-align: center;
     }
-    main p {
-        font-size: 1.3em;
-    }
     main img {
         height: 15vw;
+    }
+}
+@media screen and (min-width: 1024px) {
+    main p {
+        font-size: 1.3em;
     }
 }
 
@@ -153,7 +155,7 @@ main .next {
     float: right;
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 768px) {
     main .button {
         font-family: 'Balsamiq Sans';
     }
@@ -256,11 +258,39 @@ th, td {
 /* res specific */
 iframe {
     border: none;
+    width: 100%;
+    height: auto;
 }
 div#transcript {
     height: 25vh;
     overflow: scroll;
     padding: 1em;
+    background-color: #c0f3f3;
+    border: 1px solid darkslategrey;
+    font-style: italic;
+}
+dt {
+    font-weight: bold;
+    margin: 0.5em 0;
+}
+dd {
+    margin-left: 1em;
+}
+
+@media screen and (min-width: 768px) {
+    iframe {
+        width: 560;
+        height: 315;
+    }
+    div#transcript {
+        width: 560;
+    }
+}
+@media screen and (min-width: 1024px) {
+    dt, dd {
+        font-size: 1.3em;
+        line-height: 1.3;
+    }
 }
 
 /* footer */

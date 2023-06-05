@@ -9,7 +9,9 @@ oriented programming in natural language that will be familiar to children aroun
 
 - [x] Reference page is updated with overrides and inherited methods
 - [ ] Not really sure what to do about the feedback form.
-    - will probably remove
+    - [ ] Style input elements
+    - [ ] Add more element types?
+    - [ ] JS script for form submit
 - Tutorial-specific layout:
     - [x] pages 0-3 with labels, floats, and clears
     - Using grid will not be mobile-friendly
@@ -21,6 +23,7 @@ oriented programming in natural language that will be familiar to children aroun
 - [x] The current section is highlighted in the nav bar
 - [ ] Work on the external resources page
     - [x] Add descriptions for the links
+    - [x] Style `dl` so it's not tiny
     - [x] Style the iframe so it is borderless
     - [x] Video Transcript
     - [ ] LIVE video transcript
