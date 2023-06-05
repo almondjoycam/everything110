@@ -44,7 +44,7 @@
         </header>
 
         <main>
-            <h1>Did I ask?</h1>
+            <h1>What do you think?</h1>
 
             <form name="feedback">
                 <fieldset>
@@ -58,12 +58,29 @@
                             <input type="email" id="emailField" required />
                         </li>
                         <li>
-                            <label for="commentsField">Comments: </label><br />
+                            <label for="pageSelect">Page: </label>
+                            <select id="pageSelect" name="page">
+                                <option value="home">Home</option>
+                                <option value="tut0">Tutorial 00: Introduction</option>
+                                <option value="tut1">Tutorial 01: Secrets</option>
+                                <option value="tut2">Tutorial O2: Chirp!</option>
+                                <option value="tut3">Tutorial 03: Invitation</option>
+                                <option value="tut4">Tutorial 04: Details</option>
+                                <option value="tut5">Tutorial 05: Dinnertime</option>
+                                <option value="ref">Reference</option>
+                                <option value="res">Resources</option>
+                                <option value="about">About</option>
+                                <option value="feedback">Feedback</option>
+                                <option value="map">Sitemap</option>
+                            </select>
+                        </li>
+                        <li>
+                            <label for="commentsField">Comments: </label>
                             <textarea id="commentsField" required></textarea>
                         </li>
                     </ol>
                 </fieldset>
-                <input type="submit" />
+                <input type="submit" value="Let me know!" />
             </form>
 
             <img src="/everything110/img/brick-3.svg" alt="Pensive Brick" />

@@ -8,9 +8,9 @@ oriented programming in natural language that will be familiar to children aroun
 ## To Do List
 
 - [x] Reference page is updated with overrides and inherited methods
-- [ ] Not really sure what to do about the feedback form.
-    - [ ] Style input elements
-    - [ ] Add more element types?
+- [ ] Feedback Form
+    - [x] Style input elements
+    - [x] Add more element types?
     - [ ] JS script for form submit
 - Tutorial-specific layout:
     - [x] pages 0-3 with labels, floats, and clears

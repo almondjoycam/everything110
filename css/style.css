@@ -304,6 +304,62 @@ dd {
     }
 }
 
+/* feedback specific */
+fieldset ol {
+    list-style-type: none;
+    padding: 0;
+}
+fieldset {
+    border: none;
+    display: block;
+    padding: 1em;
+}
+label, input, select, textarea {
+    display: block;
+    width: 100%;
+    margin: 0.5em 0;
+    font: inherit;
+}
+input, select, textarea {
+    padding: 0.5em;
+}
+textarea {
+    min-height: 25vh;
+    resize: vertical;
+}
+input[type=submit] {
+    margin: auto;
+    margin-top: 1em;
+    padding: 0.5em;
+    width: max-content;
+    text-align: center;
+    background-color: orange;
+    color: #28075a;
+    border: none;
+    border-bottom: 1px solid orange;
+}
+input[type=submit]:hover,
+input[type=submit]:active {
+    background-color: #ffb937;
+    border-bottom: 1px dotted #28075a;
+}
+
+@media screen and (min-width: 768px) {
+    fieldset ol li {
+        display: grid;
+        grid-template-columns: 25% 75%;
+    }
+    label {
+        grid-column: 1 / 2;
+    }
+    input, select, textarea {
+        grid-column: 2 / 3;
+    }
+    input[type=submit] {
+        font-family: 'Balsamiq Sans';
+    }
+}
+
 /* footer */
 footer {
     clear: both;
