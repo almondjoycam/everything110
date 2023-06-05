@@ -24,6 +24,7 @@ oriented programming in natural language that will be familiar to children aroun
 - [ ] Work on the external resources page
     - [x] Add descriptions for the links
     - [x] Style `dl` so it's not tiny
+    - [x] Advanced Resources
     - [x] Style the iframe so it is borderless
     - [x] Video Transcript
     - [ ] LIVE video transcript
