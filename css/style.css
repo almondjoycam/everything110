@@ -258,13 +258,15 @@ th, td {
 /* res specific */
 iframe {
     border: none;
-    width: 100%;
-    height: auto;
+    width: 80vw;
+    height: 45vw;
+    margin-top: 0.5em;
 }
 div#transcript {
     height: 25vh;
+    width: 80vw;
     overflow: scroll;
-    padding: 1em;
+    padding: 0.5em;
     background-color: #c0f3f3;
     border: 1px solid darkslategrey;
     font-style: italic;
@@ -274,22 +276,31 @@ dt {
     margin: 0.5em 0;
 }
 dd {
-    margin-left: 1em;
+    margin-left: 0;
 }
 
 @media screen and (min-width: 768px) {
     iframe {
-        width: 560;
-        height: 315;
+        width: 560px;
+        height: 315px;
     }
     div#transcript {
-        width: 560;
+        width: 54vw;
+    }
+    dd {
+        margin-left: 1em;
     }
 }
 @media screen and (min-width: 1024px) {
+    div#transcript {
+        width: 530px;
+    }
     dt, dd {
         font-size: 1.3em;
         line-height: 1.3;
+    }
+    dd p {
+        font-size: 1em;
     }
 }
 
