@@ -101,6 +101,13 @@ main a:hover,
 main a:active {
     border-bottom: 1px dotted #28075a;
 }
+aside {
+    margin: 1em;
+    padding: 1em;
+    background-color: #ffb937;
+    color: #28075a;
+    border-radius: 17px;
+}
 
 @media screen and (min-width: 400px) {
     main h1 {
@@ -181,14 +188,8 @@ main.tut p.dial::after {
     content: close-quote;
 }
 main.tut img {
-    margin: 1em 2em;
-}
-main.tut img:nth-of-type(odd) {
-    float: left;
-}
-main.tut img:nth-of-type(even) {
-    float: right;
-    transform: scaleX(-1);
+    display: block;
+    margin: auto;
 }
 main.tut nav {
     clear: both;
@@ -200,6 +201,18 @@ main.tut aside {
     width: auto;
 }
 
+@media screen and (min-width: 480px) {
+    main.tut img {
+        margin: 1em 2em;
+    }
+    main.tut img:nth-of-type(odd) {
+        float: left;
+    }
+    main.tut img:nth-of-type(even) {
+        float: right;
+        transform: scaleX(-1);
+    }
+}
 @media screen and (min-width: 1024px)
 {
     main.tut aside {
@@ -209,13 +222,6 @@ main.tut aside {
 }
 
 /* ref specific */
-aside {
-    margin: 1em;
-    padding: 1em;
-    background-color: #ffb937;
-    color: #28075a;
-    border-radius: 17px;
-}
 aside li {
     display: block;
 }
