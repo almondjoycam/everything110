@@ -14,11 +14,13 @@ oriented programming in natural language that will be familiar to children aroun
     - [ ] JS script for form submit
 - Tutorial-specific layout:
     - [x] pages 0-3 with labels, floats, and clears
+    - [ ] pages 4 and 5
     - Using grid will not be mobile-friendly
     - [x] Add `p` classes as follows: `narration` and `dialogue`
     - [x] Make sure `narration` is styled with `clear: both;`
     - [x] Use `nth-of-type` to align `img` and `dialogue` alternately
     - [x] Should probably do something about the collapsing margins
+    - [ ] Add an `aside` to each tutorial page to connect with concepts
 - [ ] Float images on home and reference
 - [x] The current section is highlighted in the nav bar
 - [ ] Work on the external resources page

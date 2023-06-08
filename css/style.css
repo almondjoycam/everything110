@@ -194,6 +194,19 @@ main.tut nav {
     clear: both;
     width: 100%;
 }
+main.tut aside {
+    float: none;
+    clear: both;
+    width: auto;
+}
+
+@media screen and (min-width: 1024px)
+{
+    main.tut aside {
+        width: 80%;
+        margin: auto;
+    }
+}
 
 /* ref specific */
 aside {
@@ -234,7 +247,7 @@ th, td {
 }
 
 @media screen and (min-width: 992px) {
-    aside {
+    main.ref aside {
         float: left;
         position: sticky;
         top: 1em;
