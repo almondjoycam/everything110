@@ -28,8 +28,8 @@ oriented programming in natural language that will be familiar to children aroun
         - [x] page 00
         - [x] page 01
         - [x] page 02
-        - [ ] page 03
-        - [ ] page 04
+        - [x] page 03
+        - [x] page 04
         - [ ] page 05
 - [ ] Float images on home and reference
 - [x] The current section is highlighted in the nav bar
@@ -44,6 +44,8 @@ oriented programming in natural language that will be familiar to children aroun
     - [x] tutorial page 00
     - [x] tutorial page 01
     - [x] tutorial page 02
+    - [x] tutorial page 03
+    - [x] tutorial page 04
 
 ## ITD 110 Final Project Information
 

@@ -13,9 +13,9 @@
             href="/everything110/css/style.css" />
     </head>
     <body>
-        <header>
-            <nav>
-                <ul>
+        <header aria-label="Site Header">
+            <nav role="navigation" aria-label="Site Navigation">
+                <ul aria-label="Navigation Links">
                     <li class="logo">
                         <a href="/everything110/index.html">
                             <img
@@ -40,7 +40,7 @@
             </nav>
         </header>
 
-        <main class="tut">
+        <main class="tut" aria-label="Story Page">
             <h1>03: Invitation</h1>
 
             <p class="narr" aria-label="Story Narration">
@@ -78,13 +78,19 @@
                 alt="Spruce the Square" />
 
             <aside class="concept" aria-label="Concept Aside">
-                <h2>Connect to Concepts:<br /></h2>
+                <h2>Connect to Concepts:<br />Methods</h2>
                 <p>
-                    Not sure what concepts I can talk about here
+                    We've seen that Ada and Brick can sometimes see each other's
+                    information, but what if one of them tried to do something that
+                    only the other can do? <em>Methods</em> are actions that are
+                    specific to each object, and because of this, only the object
+                    with the method can perform such an action. So, Brick can't
+                    invite friends to Fiddler's house by itself, but it can ask
+                    nicely!
                 </p>
             </aside>
 
-            <nav role="navigation">
+            <nav role="navigation" aria-label="Story Navigation">
                 <p class="prev button">
                     <a href="page02.html">Previous Page</a>
                 </p>
@@ -92,10 +98,12 @@
             </nav>
         </main>
 
-        <footer>
+        <footer aria-label="Site Footer">
             <img src="/everything110/img/almond-1.svg" alt="Smug Camber" />
-            <p><small>&copy; 2023 almondjoycam</small></p>
-            <p>
+            <p aria-label="Author">
+                <small>&copy; 2023 almondjoycam</small>
+            </p>
+            <p aria-label="Site Map Link">
                 <small><a href="/everything110/project.html">Sitemap</a></small>
             </p>
         </footer>
