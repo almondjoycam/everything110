@@ -13,9 +13,9 @@
             href="/everything110/css/style.css" />
     </head>
     <body>
-        <header>
-            <nav role="navigation">
-                <ul>
+        <header aria-label="Site Header">
+            <nav role="navigation" aria-label="Site Navigation">
+                <ul aria-label="Navigation Links">
                     <li class="logo">
                         <a href="/everything110/index.html">
                             <img
@@ -40,7 +40,7 @@
             </nav>
         </header>
 
-        <main class="tut">
+        <main class="tut" aria-label="Story Page">
             <h1>02: Chirp!</h1>
 
             <p class="narr" aria-label="Story Narration">
@@ -75,7 +75,18 @@
                 buzz, while Birds use their beaks to sing!
             </p>
 
-            <nav>
+            <aside class="concept" aria-label="Concept Aside">
+                <h2>Connect to Concepts:<br />Polymorphism</h2>
+                <p>
+                    Like Fiddler says, even though all Animals can call, each
+                    one does it in a different way. <em>Polymorphism</em>, from
+                    root words meaning "many forms," is the idea that many different
+                    types of objects can perform the same action, but each does it
+                    in their own way.
+                </p>
+            </aside>
+
+            <nav role="navigation" aria-label="Story Navigation">
                 <p class="prev button">
                     <a href="page01.html">Previous Page</a>
                 </p>
@@ -83,10 +94,11 @@
             </nav>
         </main>
 
-        <footer>
+        <footer aria-label="Site Footer">
             <img src="/everything110/img/almond-1.svg" alt="Smug Camber" />
-            <p><small>&copy; 2023 almondjoycam</small></p>
-            <p>
+            <p aria-label="Author">
+                <small>&copy; 2023 almondjoycam</small></p>
+            <p aria-label="Site Map Link">
                 <small><a href="/everything110/project.html">Sitemap</a></small>
             </p>
         </footer>

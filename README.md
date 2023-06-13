@@ -7,6 +7,10 @@ oriented programming in natural language that will be familiar to children aroun
 
 ## To Do List
 
+- [ ] Navigation dropdown for the tutorial pages
+    - [ ] HTML present on all pages
+    - [ ] CSS to show/hide, as well as indicator on focus
+    - [ ] JS on click?
 - [x] Reference page is updated with overrides and inherited methods
 - [ ] Feedback Form
     - [x] Style input elements
@@ -21,6 +25,12 @@ oriented programming in natural language that will be familiar to children aroun
     - [x] Use `nth-of-type` to align `img` and `dialogue` alternately
     - [x] Should probably do something about the collapsing margins
     - [ ] Add an `aside` to each tutorial page to connect with concepts
+        - [x] page 00
+        - [x] page 01
+        - [x] page 02
+        - [ ] page 03
+        - [ ] page 04
+        - [ ] page 05
 - [ ] Float images on home and reference
 - [x] The current section is highlighted in the nav bar
 - [ ] Work on the external resources page
@@ -31,6 +41,9 @@ oriented programming in natural language that will be familiar to children aroun
     - [x] Video Transcript
     - [ ] LIVE video transcript
 - [ ] Add `aria-label` attributes to... everything I guess!
+    - [x] tutorial page 00
+    - [x] tutorial page 01
+    - [x] tutorial page 02
 
 ## ITD 110 Final Project Information
 
@@ -46,7 +59,6 @@ oriented programming in natural language that will be familiar to children aroun
 - [x] One video: YouTube embed on `resources.html`
 - [x] `meta` tags on each page
 - [ ] Working form with 4-5 types of elements
-    - I have a form with 3 types of elements but I need to add a few more. Also it doesn't work yet.
 - [x] One page that uses tables effectively: `reference.html`
 - Links:
     - [ ] One email
