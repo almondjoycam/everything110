@@ -3,50 +3,58 @@
 [**Everything Is An Object**](https://almondjoycam.github.io/everything110/index.html): A website providing a narrative based on concepts of object-
 oriented programming in natural language that will be familiar to children around the ages of 8-12 years.
 
+## Features
+
+- Six pages of narrative content with hand-drawn cartoon characters who introduce critical OOP concepts
+- A diverse array of characterizations with several disabilities represented
+- A full API-style reference page with all the characters and the things they interact with in the story
+- Links to supplementary content with article summaries
+- An embedded video with a full transcript
+- Responsive layout to fit any and all screen sizes
+
+## Graphical Sitemap
+
+```mermaid
+%%{ init: { 'flowchart': { 'curve': 'basis' } } }%%
+graph TB
+    index  -->|Nav bar| index & ref & res & about & fb
+    index["Home (index.html)"] ==>|Begin Button| 00
+    tut ~~~ ref ~~~ res ~~~ about ~~~ fb
+    ref["Reference (reference.html)"]
+    about["About (about.html)"]
+    res["Resources with fa:fa-video Video Embed (resources.html)"]
+    fb["Feedback (feedback.html)"]
+    subgraph tut["Tutorial Narrative (tut/)"]
+        direction LR
+        00["Page 00: Introduction"]
+        01["Page 01: Secrets"] <--> 00
+        02["Page 02: Chirp!"] <--> 01
+        03["Page 03: Invitation"] <--> 02
+        04["Page 04: Details"] <--> 03
+        05["Page 05: Dinnertime"] <--> 04
+        00 ~~~ 01 ~~~ 02 ~~~ 03 ~~~ 04 ~~~ 05
+    end
+    05 --> ref
+    ref -->|Almond section| about
+    sitemap["Sitemap (project.html)"]
+    sitemap --- index & 00 & 01 & 02 & 03 & 04 & 05
+    sitemap --- ref & res & about & fb
+```
+
 ---
 
 ## To Do List
 
-- [ ] Navigation dropdown for the tutorial pages
+- [ ] Navigation dropdown for the tutorial pages in navbar
     - [ ] HTML present on all pages
     - [ ] CSS to show/hide, as well as indicator on focus
     - [ ] JS on click?
-- [x] Reference page is updated with overrides and inherited methods
 - [ ] Feedback Form
-    - [x] Style input elements
-    - [x] Add more element types?
     - [ ] JS script for form submit
-- Tutorial-specific layout:
-    - [x] pages 0-3 with labels, floats, and clears
-    - [x] pages 4 and 5
-    - Using grid will not be mobile-friendly
-    - [x] Add `p` classes as follows: `narration` and `dialogue`
-    - [x] Make sure `narration` is styled with `clear: both;`
-    - [x] Use `nth-of-type` to align `img` and `dialogue` alternately
-    - [x] Should probably do something about the collapsing margins
-    - [x] Add an `aside` to each tutorial page to connect with concepts
-        - [x] page 00
-        - [x] page 01
-        - [x] page 02
-        - [x] page 03
-        - [x] page 04
-        - [x] page 05
 - [ ] Float images on home and reference
-- [x] The current section is highlighted in the nav bar
-- [ ] Work on the external resources page
-    - [x] Add descriptions for the links
-    - [x] Style `dl` so it's not tiny
-    - [x] Advanced Resources
-    - [x] Style the iframe so it is borderless
-    - [x] Video Transcript
-    - [ ] LIVE video transcript
+- [ ] LIVE video transcript
 - [ ] Add `aria-label` attributes to... everything I guess!
-    - [x] tutorial page 00
-    - [x] tutorial page 01
-    - [x] tutorial page 02
-    - [x] tutorial page 03
-    - [x] tutorial page 04
-    - [x] tutorial page 05
+    - [x] all tut pages
 
 ## ITD 110 Final Project Information
 
@@ -75,32 +83,3 @@ oriented programming in natural language that will be familiar to children aroun
 - [ ] W3C standards
 - [x] Proper indentation
 
-
-## Sitemap
-
-```mermaid
-%%{ init: { 'flowchart': { 'curve': 'basis' } } }%%
-graph TB
-    index  -->|Nav bar| index & ref & res & about & fb
-    index["Home (index.html)"] ==>|Begin Button| 00
-    tut ~~~ ref ~~~ res ~~~ about ~~~ fb
-    ref["Reference (reference.html)"]
-    about["About (about.html)"]
-    res["Resources with fa:fa-video Video Embed (resources.html)"]
-    fb["Feedback (feedback.html)"]
-    subgraph tut["Tutorial Narrative (tut/)"]
-        direction LR
-        00["Page 00: Introduction"]
-        01["Page 01: Secrets"] <--> 00
-        02["Page 02: Chirp!"] <--> 01
-        03["Page 03: Invitation"] <--> 02
-        04["Page 04: Details"] <--> 03
-        05["Page 05: Dinnertime"] <--> 04
-        00 ~~~ 01 ~~~ 02 ~~~ 03 ~~~ 04 ~~~ 05
-    end
-    05 --> ref
-    ref -->|Almond section| about
-    sitemap["Sitemap (project.html)"]
-    sitemap --- index & 00 & 01 & 02 & 03 & 04 & 05
-    sitemap --- ref & res & about & fb
-```
