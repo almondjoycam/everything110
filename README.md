@@ -47,8 +47,13 @@ graph TB
 
 - [ ] Navigation dropdown for the tutorial pages in navbar
     - [ ] HTML present on all pages
-    - [ ] CSS to show/hide, as well as indicator on focus
-    - [ ] JS on click?
+        - Just `index.html` for testing
+    - [x] CSS to show/hide, as well as indicator on focus
+        - The styling needs to be less clunky
+        - Also using `position: relative` on large screens
+    - [x] JS on click?
+        - The links inside of the menu are also not clickable because of `e.preventDefault()`
+        - The mouseout delay does not work
 - [ ] Feedback Form
     - [ ] JS script for form submit
 - [ ] Float images on home and reference
