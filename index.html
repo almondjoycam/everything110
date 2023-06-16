@@ -13,9 +13,9 @@
             href="/everything110/css/style.css" />
     </head>
     <body>
-        <header>
-            <nav>
-                <ul>
+        <header aria-label="Site Header">
+            <nav role="navigation" aria-label="Site Navigation">
+                <ul aria-label="Navigation Links">
                     <li class="logo">
                         <a href="/everything110/index.html" class="this">
                             <img
@@ -39,7 +39,7 @@
             </nav>
         </header>
 
-        <main>
+        <main class="home" aria-label="Home Page">
             <h1>Everything Is An Object!</h1>
 
             <p>
@@ -48,6 +48,8 @@
                 of Ada, Brick, and their friends to find out what each of them
                 knows.
             </p>
+
+            <img src="/everything110/img/brick-2.svg" alt="Excited Brick" />
 
             <p>
                 In the world of computer code, the writer often wraps up each
@@ -66,6 +68,8 @@
                 more ambitious.
             </p>
 
+            <img src="/everything110/img/ada-2.svg" alt="Pleased Ada" />
+
             <p>
                 Press the Begin button on this page to start the story from the
                 beginning, or use the drop-down in the navigation bar to pick up
@@ -76,16 +80,14 @@
                 <a href="/everything110/tut/page00.html">Begin Tutorial</a>
             </p>
 
-            <img src="/everything110/img/brick-2.svg" alt="Excited Brick" />
-            <img src="/everything110/img/ada-2.svg" alt="Pleased Ada" />
         </main>
 
-        <footer>
-            <p>
-                <img src="/everything110/img/almond-1.svg" alt="Smug Camber" />
+        <footer aria-label="Site Footer">
+            <img src="/everything110/img/almond-1.svg" alt="Smug Camber" />
+            <p aria-label="Author">
                 <small>&copy; 2023 almondjoycam</small>
             </p>
-            <p>
+            <p aria-label="Site Map Link">
                 <small><a href="/everything110/project.html">Sitemap</a></small>
             </p>
         </footer>

@@ -171,6 +171,11 @@ main .next {
     }
 }
 
+/* home specific */
+main.home img {
+    margin: auto;
+}
+
 /* tut specific */
 main.tut p.narr {
     clear: both;
