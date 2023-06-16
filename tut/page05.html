@@ -4,18 +4,16 @@
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Page 05 | Everything Is An Object!</title>
-        <link
-            rel="icon"
-            href="/everything110/img/favicon.png" />
+        <link rel="icon" href="/everything110/img/favicon.png" />
         <link
             rel="stylesheet"
             type="text/css"
             href="/everything110/css/style.css" />
     </head>
     <body>
-        <header>
-            <nav>
-                <ul>
+        <header aria-label="Site Header">
+            <nav role="navigation" aria-label="Site Navigation">
+                <ul aria-label="Navigation Links">
                     <li class="logo">
                         <a href="/everything110/index.html">
                             <img
@@ -40,54 +38,78 @@
             </nav>
         </header>
 
-        <main>
+        <main class="tut" aria-label="Story Page">
             <h1>05: Dinnertime</h1>
 
-            <section class="tut">
-                <p>
-                    Ada rejoins the conversation, a little impatiently. "Are we
-                    about ready to eat? What are we having?" it asks.
-                </p>
-                <img
-                    src="/everything110/img/ada-3.svg"
-                    alt="Ada thinking about dinner" />
-                <p>
-                    Brick replies, "I got no idea, I just want some Food. Any Food
-                    will do."
-                </p>
-                <img
-                    src="/everything110/img/brick-4.svg"
-                    alt="Brick doesn't know" />
-                <p>
-                    Ada is not satisfied with this response, and argues that Food is
-                    not a solid concept to even make. Does Fiddler know a plain Food
-                    recipe? Of course not.
-                </p>
-                <img
-                    src="/everything110/img/ada-4.svg"
-                    alt="Ada didn't like that" />
-                <p>
-                    Fiddler chimes in after being mentioned - "Now, now, little
-                    bird, we have lots of kinds of Food. What would you or your
-                    friends like, hmm?"
-                </p>
-                <img src="/everything110/img/fiddler-3.svg" alt="Fiddler ponders" />
-                <p>
-                    Marble and Spruce contemplate for a bit, and decide they want
-                    something with Nuts. Ada likes this idea a lot, and Fiddler puts
-                    together a mixture with all kinds of Nuts, including its
-                    favorite, Almonds. They all sit down to enjoy in good spirits.
-                </p>
-                <img
-                    src="/everything110/img/marble-3.svg"
-                    alt="Marble is deciding..." />
-                <img src="/everything110/img/spruce-2.svg" alt="Spruce approves" />
-                <img
-                    src="/everything110/img/almond-4.svg"
-                    alt="This almond doesn't want to be eaten!" />
-            </section>
+            <p class="narr" aria-label="Story Narration">
+                Meanwhile, Ada's feeling quite a bit left out. It rejoins the
+                conversation, a little impatiently.
+            </p>
+            <img
+                src="/everything110/img/ada-3.svg"
+                alt="Ada thinking about dinner" />
+            <p class="dial" aria-label="Ada's Dialogue">
+                Are we about ready to eat? What are we having?
+            </p>
+            <p class="narr" aria-label="Story Narration">
+                Brick is not a particularly picky eater, and it doesn't really
+                want to impose anything on its friends, either.
+            </p>
+            <img
+                src="/everything110/img/brick-4.svg"
+                alt="Brick doesn't know" />
+            <p class="dial" aria-label="Brick's Dialogue">
+                I got no idea, I just want some Food. Any Food will do.
+            </p>
+            <p class="narr" aria-label="Story Narration">
+                Ada is not satisfied with this response, and argues that Food is
+                not a solid concept to even make.
+            </p>
+            <img
+                src="/everything110/img/ada-4.svg"
+                alt="Ada didn't like that" />
+            <p class="dial" aria-label="Ada's Dialogue">
+                Fiddler, do you happen to know a plain Food recipe? Of course
+                not.
+            </p>
+            <p class="narr" aria-label="Story Narration">
+                After being mentioned, Fiddler tries to calm the tension in the
+                air.
+            </p>
+            <img src="/everything110/img/fiddler-3.svg" alt="Fiddler ponders" />
+            <p class="dial" aria-label="Fiddler's Dialogue">
+                Now, now, little bird, we have lots of kinds of Food. What would
+                you or your friends like, hmm?
+            </p>
+            <p class="narr" aria-label="Story Narration">
+                Marble and Spruce contemplate for a bit, and decide they want
+                something with Nuts. Ada likes this idea a lot, and Fiddler puts
+                together a mixture with all kinds of Nuts, including its
+                favorite, Almonds. They all sit down to enjoy in good spirits.
+            </p>
+            <img
+                src="/everything110/img/marble-3.svg"
+                alt="Marble is deciding..." />
+            <img src="/everything110/img/spruce-2.svg" alt="Spruce approves" />
+            <img
+                src="/everything110/img/almond-4.svg"
+                alt="This almond doesn't want to be eaten!" />
 
-            <nav>
+            <aside class="concept" aria-label="Concept Aside">
+                <h2>Connect to Concepts:<br />Abstraction</h2>
+                <p>
+                    Ada got really upset when Brick couldn't decide what kind of
+                    food to make for its friends. Like food, there are lots of
+                    groups that have members, but can't exist by themselves.
+                    When a group provides a template but can't exist without its
+                    members, that's called an
+                    <em>abstract</em> group. Luckily, the members of the Food
+                    group all have their own clear, or <em>concrete</em>,
+                    information.
+                </p>
+            </aside>
+
+            <nav role="navigation" aria-label="Story Navigation">
                 <p class="prev button">
                     <a href="page04.html">Previous Page</a>
                 </p>
@@ -97,10 +119,12 @@
             </nav>
         </main>
 
-        <footer>
+        <footer aria-label="Site Footer">
             <img src="/everything110/img/almond-1.svg" alt="Smug Camber" />
-            <p><small>&copy; 2023 almondjoycam</small></p>
-            <p>
+            <p aria-label="Author">
+                <small>&copy; 2023 almondjoycam</small>
+            </p>
+            <p aria-label="Site Map Link">
                 <small><a href="/everything110/project.html">Sitemap</a></small>
             </p>
         </footer>

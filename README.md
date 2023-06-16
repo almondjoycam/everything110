@@ -18,19 +18,19 @@ oriented programming in natural language that will be familiar to children aroun
     - [ ] JS script for form submit
 - Tutorial-specific layout:
     - [x] pages 0-3 with labels, floats, and clears
-    - [ ] pages 4 and 5
+    - [x] pages 4 and 5
     - Using grid will not be mobile-friendly
     - [x] Add `p` classes as follows: `narration` and `dialogue`
     - [x] Make sure `narration` is styled with `clear: both;`
     - [x] Use `nth-of-type` to align `img` and `dialogue` alternately
     - [x] Should probably do something about the collapsing margins
-    - [ ] Add an `aside` to each tutorial page to connect with concepts
+    - [x] Add an `aside` to each tutorial page to connect with concepts
         - [x] page 00
         - [x] page 01
         - [x] page 02
         - [x] page 03
         - [x] page 04
-        - [ ] page 05
+        - [x] page 05
 - [ ] Float images on home and reference
 - [x] The current section is highlighted in the nav bar
 - [ ] Work on the external resources page
@@ -46,6 +46,7 @@ oriented programming in natural language that will be familiar to children aroun
     - [x] tutorial page 02
     - [x] tutorial page 03
     - [x] tutorial page 04
+    - [x] tutorial page 05
 
 ## ITD 110 Final Project Information
 
