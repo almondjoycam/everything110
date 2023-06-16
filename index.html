@@ -17,15 +17,54 @@
             <nav role="navigation" aria-label="Site Navigation">
                 <ul aria-label="Navigation Links">
                     <li class="logo">
-                        <a href="/everything110/index.html" class="this">
+                        <a
+                            href="/everything110/index.html"
+                            class="this"
+                            aria-current="page">
                             <img
                                 src="/everything110/img/almond-2.svg"
                                 alt="Excited Camber" />
                             Everything Is An Object!
                         </a>
                     </li>
-                    <li>
-                        <a href="/everything110/tut/page00.html">Tutorial</a>
+                    <li class="has-submenu">
+                        <a
+                            href="/everything110/tut/page00.html"
+                            aria-expanded="false">
+                            Tutorial
+                        </a>
+                        <ul class="submenu">
+                            <li>
+                                <a href="/everything110/tut/page00.html">
+                                    00: Introduction
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/everything110/tut/page01.html">
+                                    01: Secrets
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/everything110/tut/page02.html">
+                                    02: Chirp!
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/everything110/tut/page03.html">
+                                    03: Invitation
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/everything110/tut/page04.html">
+                                    04: Details
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/everything110/tut/page05.html">
+                                    05: Dinnertime
+                                </a>
+                            </li>
+                        </ul>
                     </li>
                     <li>
                         <a href="/everything110/reference.html">Reference</a>
@@ -91,5 +130,8 @@
                 <small><a href="/everything110/project.html">Sitemap</a></small>
             </p>
         </footer>
+
+        <script src="js/jquery-3.7.0.js"></script>
+        <script src="js/navmenu.js"></script>
     </body>
 </html>

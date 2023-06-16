@@ -59,8 +59,17 @@ nav ul li a:link,
 :visited {
     color: #28075a;
 }
-nav ul li:hover, nav ul li:active {
+nav ul li:hover,
+nav ul li:active,
+nav ul li:focus {
     background-color: #ffb937;
+}
+nav ul.submenu {
+    display: none;
+}
+nav ul li.has-submenu:hover ul,
+nav ul li.has-submenu.open ul {
+    display: block;
 }
 
 @media screen and (min-width: 768px) {
@@ -98,7 +107,8 @@ main a:visited {
     color: #28075a;
 }
 main a:hover,
-main a:active {
+main a:active,
+main a:focus {
     border-bottom: 1px dotted #28075a;
 }
 aside {
@@ -149,7 +159,8 @@ main .button a:visited {
     color: #28075a;
 }
 main .button:hover,
-main .button:active {
+main .button:active,
+main .button:focus {
     background-color: #ffb937;
 }
 main .begin {
@@ -235,7 +246,8 @@ aside a {
     color: #28075a;
 }
 aside a:hover,
-aside a:active {
+aside a:active,
+aside a:focus {
     border-bottom: 1px dotted #28075a;
 }
 
@@ -363,7 +375,8 @@ input[type=submit] {
     border-bottom: 1px solid orange;
 }
 input[type=submit]:hover,
-input[type=submit]:active {
+input[type=submit]:active,
+input[type=submit]:focus {
     background-color: #ffb937;
     border-bottom: 1px dotted #28075a;
 }
@@ -402,6 +415,8 @@ footer a {
     color: #28075a;
     text-decoration: none;
 }
-footer a:hover {
+footer a:hover,
+footer a:active,
+footer a:focus {
     border-bottom: 1px dotted #28075a;
 }
