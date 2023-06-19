@@ -64,8 +64,16 @@ nav ul li:active,
 nav ul li:focus {
     background-color: #ffb937;
 }
+nav ul li.has-submenu {
+    position: relative;
+    display: inline-block;
+}
 nav ul.submenu {
     display: none;
+    position: absolute;
+    font-size: 1rem;
+    width: max-content;
+    z-index: 1;
 }
 nav ul li.has-submenu:hover ul,
 nav ul li.has-submenu.open ul {
