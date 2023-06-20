@@ -24,15 +24,16 @@ function closeMenu(jqObject) {
 // removes the 'open' class.
 // Otherwise, adds the 'open' class.
 itemsWithSubmenu.on('click', function(e) {
-    e.preventDefault();
     var menuToggle = $(this);
     var toggleLink = $('a.submenu-toggle');
+    menuToggle.find('a').not('.submenu-toggle').off('click');
 
     if (menuToggle.attr('class').includes('open')) {
         menuToggle.removeClass('open');
-        toggleLink.attr('aria-expanded', 'true');
+        toggleLink.attr('aria-expanded', 'false');
     } else {
         menuToggle.addClass('open');
-        toggleLink.attr('aria-expanded', 'false');
+        toggleLink.attr('aria-expanded', 'true');
     }
+    e.preventDefault();
 });
