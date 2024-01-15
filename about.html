@@ -6,38 +6,75 @@
         <title>About | Everything Is An Object!</title>
         <link
             rel="icon"
-            href="/everything110/img/favicon.png" />
+            href="img/favicon.png" />
         <link
             rel="stylesheet"
             type="text/css"
-            href="/everything110/css/style.css" />
+            href="css/style.css" />
     </head>
     <body>
         <header>
             <nav>
                 <ul>
                     <li class="logo">
-                        <a href="/everything110/index.html">
+                        <a href="index.html">
                             <img
-                                src="/everything110/img/almond-2.svg"
+                                src="img/almond-2.svg"
                                 alt="Excited Camber" />Everything Is An Object!
                         </a>
                     </li>
-                    <li>
-                        <a href="/everything110/tut/page00.html">Tutorial</a>
+                    <li class="has-submenu">
+                        <a
+                            href="tut/page00.html"
+                            aria-expanded="false"
+                            class="submenu-toggle">
+                            Tutorial
+                        </a>
+                        <ul class="submenu">
+                            <li>
+                                <a href="tut/page00.html">
+                                    00: Introduction
+                                </a>
+                            </li>
+                            <li>
+                                <a href="tut/page01.html">
+                                    01: Secrets
+                                </a>
+                            </li>
+                            <li>
+                                <a href="tut/page02.html">
+                                    02: Chirp!
+                                </a>
+                            </li>
+                            <li>
+                                <a href="tut/page03.html">
+                                    03: Invitation
+                                </a>
+                            </li>
+                            <li>
+                                <a href="tut/page04.html">
+                                    04: Details
+                                </a>
+                            </li>
+                            <li>
+                                <a href="tut/page05.html">
+                                    05: Dinnertime
+                                </a>
+                            </li>
+                        </ul>
                     </li>
                     <li>
-                        <a href="/everything110/reference.html">Reference</a>
+                        <a href="reference.html">Reference</a>
                     </li>
                     <li>
-                        <a href="/everything110/resources.html">Resources</a>
+                        <a href="resources.html">Resources</a>
                     </li>
                     <li>
-                        <a class="this" href="/everything110/about.html">
+                        <a class="this" href="about.html">
                             About
                         </a>
                     </li>
-                    <li><a href="/everything110/feedback.html">Feedback</a></li>
+                    <li><a href="feedback.html">Feedback</a></li>
                 </ul>
             </nav>
         </header>
@@ -49,7 +86,7 @@
                 Camber is an Almond who loves to create. In fact, it created the
                 idea for this entire story!
             </p>
-            <img src="/everything110/img/almond-2.svg" alt="Joyful Camber" />
+            <img src="img/almond-2.svg" alt="Joyful Camber" />
             <p>
                 Camber works with children 8-12 years old in Northern Virginia
                 who are learning to make video games, but it noticed that many
@@ -68,16 +105,19 @@
             <p>
                 If there's something on this website that is hard to understand
                 or easy to miss, let Camber know over in the
-                <a href="/everything110/feedback.html">Feedback page</a>.
+                <a href="feedback.html">Feedback page</a>.
             </p>
         </main>
 
         <footer>
-            <img src="/everything110/img/almond-1.svg" alt="Smug Camber" />
+            <img src="img/almond-1.svg" alt="Smug Camber" />
             <p><small>&copy; 2023 almondjoycam</small></p>
             <p>
-                <small><a href="/everything110/project.html">Sitemap</a></small>
+                <small><a href="project.html">Sitemap</a></small>
             </p>
         </footer>
+
+        <script src="js/jquery-3.7.0.js"></script>
+        <script src="js/navmenu.js"></script>
     </body>
 </html>

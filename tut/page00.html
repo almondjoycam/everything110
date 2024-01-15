@@ -6,36 +6,71 @@
         <title>Page 00 | Everything Is An Object!</title>
         <link
             rel="icon"
-            href="/everything110/img/favicon.png" />
+            href="../img/favicon.png" />
         <link
             rel="stylesheet"
             type="text/css"
-            href="/everything110/css/style.css" />
+            href="../css/style.css" />
     </head>
     <body>
         <header aria-label="Site Header">
             <nav role="navigation" aria-label="Site Navigation">
                 <ul aria-label="Navigation Links">
                     <li class="logo">
-                        <a href="/everything110/index.html">
+                        <a href="../index.html">
                             <img
-                                src="/everything110/img/almond-2.svg"
+                                src="../img/almond-2.svg"
                                 alt="Excited Camber" />Everything Is An Object!
                         </a>
                     </li>
-                    <li>
-                        <a class="this" href="/everything110/tut/page00.html">
+                    <li class="has-submenu">
+                        <a
+                            href="../tut/page00.html"
+                            aria-expanded="false"
+                            class="submenu-toggle this">
                             Tutorial
                         </a>
+                        <ul class="submenu">
+                            <li>
+                                <a href="../tut/page00.html">
+                                    00: Introduction
+                                </a>
+                            </li>
+                            <li>
+                                <a href="../tut/page01.html">
+                                    01: Secrets
+                                </a>
+                            </li>
+                            <li>
+                                <a href="../tut/page02.html">
+                                    02: Chirp!
+                                </a>
+                            </li>
+                            <li>
+                                <a href="../tut/page03.html">
+                                    03: Invitation
+                                </a>
+                            </li>
+                            <li>
+                                <a href="../tut/page04.html">
+                                    04: Details
+                                </a>
+                            </li>
+                            <li>
+                                <a href="../tut/page05.html">
+                                    05: Dinnertime
+                                </a>
+                            </li>
+                        </ul>
                     </li>
                     <li>
-                        <a href="/everything110/reference.html">Reference</a>
+                        <a href="../reference.html">Reference</a>
                     </li>
                     <li>
-                        <a href="/everything110/resources.html">Resources</a>
+                        <a href="../resources.html">Resources</a>
                     </li>
-                    <li><a href="/everything110/about.html">About</a></li>
-                    <li><a href="/everything110/feedback.html">Feedback</a></li>
+                    <li><a href="../about.html">About</a></li>
+                    <li><a href="../feedback.html">Feedback</a></li>
                 </ul>
             </nav>
         </header>
@@ -48,7 +83,7 @@
                 Ada introducing themselves to each other.
             </p>
             <img
-                src="/everything110/img/brick-1.svg"
+                src="../img/brick-1.svg"
                 alt="Brick the Triangle" />
             <p class="dial" aria-label="Brick's Dialogue">
                 What a lovely day to be outside~
@@ -57,7 +92,7 @@
                 Both of them are out on a walk, and Ada happens to recognize
                 Brick because they live across the street from each other.
             </p>
-            <img src="/everything110/img/ada-1.svg" alt="Ada the Bird" />
+            <img src="../img/ada-1.svg" alt="Ada the Bird" />
             <p class="dial" aria-label="Ada's Dialogue">
                 Hey, isn't that the Triangle from the other side of the road?
             </p>
@@ -67,7 +102,7 @@
                 is learning to build furniture. They start talking about their
                 creative process.
             </p>
-            <img src="/everything110/img/brick-3.svg" alt="Thinking Brick" />
+            <img src="../img/brick-3.svg" alt="Thinking Brick" />
             <p class="dial" aria-label="Brick's Dialogue">
                 I'm working on something new that requires a lot of Sticks to be
                 woven together. It's very challenging!
@@ -78,7 +113,7 @@
                 to continue the conversation, but Ada begins to bristle at the
                 idea of showing Brick its nest.
             </p>
-            <img src="/everything110/img/ada-4.svg" alt="Defensive Ada" />
+            <img src="../img/ada-4.svg" alt="Defensive Ada" />
             <p class="dial" aria-label="Ada's Dialogue">
                 You can't just <em>ask</em> to walk into someone's home!
             </p>
@@ -101,13 +136,16 @@
         </main>
 
         <footer aria-label="Site Footer">
-            <img src="/everything110/img/almond-1.svg" alt="Smug Camber" />
+            <img src="../img/almond-1.svg" alt="Smug Camber" />
             <p aria-label="Author">
                 <small>&copy; 2023 almondjoycam</small>
             </p>
             <p aria-label="Site Map Link">
-                <small><a href="/everything110/project.html">Sitemap</a></small>
+                <small><a href="../project.html">Sitemap</a></small>
             </p>
         </footer>
+
+        <script src="../js/jquery-3.7.0.js"></script>
+        <script src="../js/navmenu.js"></script>
     </body>
 </html>

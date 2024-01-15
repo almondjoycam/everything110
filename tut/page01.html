@@ -6,36 +6,71 @@
         <title>Page 01 | Everything Is An Object!</title>
         <link
             rel="icon"
-            href="/everything110/img/favicon.png" />
+            href="../img/favicon.png" />
         <link
             rel="stylesheet"
             type="text/css"
-            href="/everything110/css/style.css" />
+            href="../css/style.css" />
     </head>
     <body>
         <header aria-label="Site Header">
             <nav role="navigation" aria-label="Site Navigation">
                 <ul aria-label="Navigation Links">
                     <li class="logo">
-                        <a href="/everything110/index.html">
+                        <a href="../index.html">
                             <img
-                                src="/everything110/img/almond-2.svg"
+                                src="../img/almond-2.svg"
                                 alt="Excited Camber" />Everything Is An Object!
                         </a>
                     </li>
-                    <li>
-                        <a class="this" href="/everything110/tut/page00.html">
+                    <li class="has-submenu">
+                        <a
+                            href="../tut/page00.html"
+                            aria-expanded="false"
+                            class="submenu-toggle this">
                             Tutorial
                         </a>
+                        <ul class="submenu">
+                            <li>
+                                <a href="../tut/page00.html">
+                                    00: Introduction
+                                </a>
+                            </li>
+                            <li>
+                                <a href="../tut/page01.html">
+                                    01: Secrets
+                                </a>
+                            </li>
+                            <li>
+                                <a href="../tut/page02.html">
+                                    02: Chirp!
+                                </a>
+                            </li>
+                            <li>
+                                <a href="../tut/page03.html">
+                                    03: Invitation
+                                </a>
+                            </li>
+                            <li>
+                                <a href="../tut/page04.html">
+                                    04: Details
+                                </a>
+                            </li>
+                            <li>
+                                <a href="../tut/page05.html">
+                                    05: Dinnertime
+                                </a>
+                            </li>
+                        </ul>
                     </li>
                     <li>
-                        <a href="/everything110/reference.html">Reference</a>
+                        <a href="../reference.html">Reference</a>
                     </li>
                     <li>
-                        <a href="/everything110/resources.html">Resources</a>
+                        <a href="../resources.html">Resources</a>
                     </li>
-                    <li><a href="/everything110/about.html">About</a></li>
-                    <li><a href="/everything110/feedback.html">Feedback</a></li>
+                    <li><a href="../about.html">About</a></li>
+                    <li><a href="../feedback.html">Feedback</a></li>
                 </ul>
             </nav>
         </header>
@@ -49,7 +84,7 @@
                 protective of its nest and doesn't want anything in it shown to
                 anyone outside its family.
             </p>
-            <img src="/everything110/img/ada-3.svg" alt="Pensive Ada" />
+            <img src="../img/ada-3.svg" alt="Pensive Ada" />
             <p class="dial" aria-label="Ada's Dialogue">
                 My nest is special to me, and I don't like anyone else to see it
                 unless I have invited them first.
@@ -60,7 +95,7 @@
                 and Ada mentions it was planning on visiting a friend down by
                 the pond.
             </p>
-            <img src="/everything110/img/ada-2.svg" alt="Happy Ada" />
+            <img src="../img/ada-2.svg" alt="Happy Ada" />
             <p class="dial" aria-label="Ada's Dialogue">
                 I was just about to head down to the pond to see a friend, would
                 you like to join me?
@@ -73,7 +108,7 @@
                 red is its color and its color is red, that's how it got its
                 name, and this cannot be changed.
             </p>
-            <img src="/everything110/img/brick-4.svg" alt="Serious Brick" />
+            <img src="../img/brick-4.svg" alt="Serious Brick" />
             <p class="dial" aria-label="Brick's Dialogue">
                 I can't just change my color like that! It's always been like that.
                 Plus, I think it's pretty cool~
@@ -87,7 +122,7 @@
                 external factors. In fact, Ada is making Brick excited right now
                 because they are new friends.
             </p>
-            <img src="/everything110/img/brick-2.svg" alt="Excited Brick" />
+            <img src="../img/brick-2.svg" alt="Excited Brick" />
             <p class="dial" aria-label="Brick's Dialogue">
                 It's not that my color defines my personality. I like to think that
                 my personality defines my color, actually!
@@ -116,13 +151,16 @@
         </main>
 
         <footer aria-label="Site Footer">
-            <img src="/everything110/img/almond-1.svg" alt="Smug Camber" />
+            <img src="../img/almond-1.svg" alt="Smug Camber" />
             <p aria-label="Author">
                 <small>&copy; 2023 almondjoycam</small>
             </p>
             <p aria-label="Site Map Link">
-                <small><a href="/everything110/project.html">Sitemap</a></small>
+                <small><a href="../project.html">Sitemap</a></small>
             </p>
         </footer>
+
+        <script src="../js/jquery-3.7.0.js"></script>
+        <script src="../js/navmenu.js"></script>
     </body>
 </html>

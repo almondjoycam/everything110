@@ -6,36 +6,71 @@
         <title>Page 03 | Everything Is An Object!</title>
         <link
             rel="icon"
-            href="/everything110/img/favicon.png" />
+            href="../img/favicon.png" />
         <link
             rel="stylesheet"
             type="text/css"
-            href="/everything110/css/style.css" />
+            href="../css/style.css" />
     </head>
     <body>
         <header aria-label="Site Header">
             <nav role="navigation" aria-label="Site Navigation">
                 <ul aria-label="Navigation Links">
                     <li class="logo">
-                        <a href="/everything110/index.html">
+                        <a href="../index.html">
                             <img
-                                src="/everything110/img/almond-2.svg"
+                                src="../img/almond-2.svg"
                                 alt="Excited Camber" />Everything Is An Object!
                         </a>
                     </li>
-                    <li>
-                        <a class="this" href="/everything110/tut/page00.html">
+                    <li class="has-submenu">
+                        <a
+                            href="../tut/page00.html"
+                            aria-expanded="false"
+                            class="submenu-toggle this">
                             Tutorial
                         </a>
+                        <ul class="submenu">
+                            <li>
+                                <a href="../tut/page00.html">
+                                    00: Introduction
+                                </a>
+                            </li>
+                            <li>
+                                <a href="../tut/page01.html">
+                                    01: Secrets
+                                </a>
+                            </li>
+                            <li>
+                                <a href="../tut/page02.html">
+                                    02: Chirp!
+                                </a>
+                            </li>
+                            <li>
+                                <a href="../tut/page03.html">
+                                    03: Invitation
+                                </a>
+                            </li>
+                            <li>
+                                <a href="../tut/page04.html">
+                                    04: Details
+                                </a>
+                            </li>
+                            <li>
+                                <a href="../tut/page05.html">
+                                    05: Dinnertime
+                                </a>
+                            </li>
+                        </ul>
                     </li>
                     <li>
-                        <a href="/everything110/reference.html">Reference</a>
+                        <a href="../reference.html">Reference</a>
                     </li>
                     <li>
-                        <a href="/everything110/resources.html">Resources</a>
+                        <a href="../resources.html">Resources</a>
                     </li>
-                    <li><a href="/everything110/about.html">About</a></li>
-                    <li><a href="/everything110/feedback.html">Feedback</a></li>
+                    <li><a href="../about.html">About</a></li>
+                    <li><a href="../feedback.html">Feedback</a></li>
                 </ul>
             </nav>
         </header>
@@ -49,7 +84,7 @@
                 dinner. Ada and Brick both get really excited about having
                 dinner together.
             </p>
-            <img src="/everything110/img/fiddler-1.svg" alt="Restful Fiddler" />
+            <img src="../img/fiddler-1.svg" alt="Restful Fiddler" />
             <p class="dial" aria-label="Fiddler's Dialogue">
                 I don't mean to interrupt, but are you kids getting hungry?
             </p>
@@ -59,7 +94,7 @@
                 if it asked some Shape friends to join them.
             </p>
             <img
-                src="/everything110/img/brick-3.svg"
+                src="../img/brick-3.svg"
                 alt="Brick asking a question" />
             <p class="dial" aria-label="Brick's Dialogue">
                 What would you say to maybe inviting a few more?
@@ -71,10 +106,10 @@
                 arrive with a knock at Fiddler's door.
             </p>
             <img
-                src="/everything110/img/marble-2.svg"
+                src="../img/marble-2.svg"
                 alt="Enthusiastic Marble" />
             <img
-                src="/everything110/img/spruce-1.svg"
+                src="../img/spruce-1.svg"
                 alt="Spruce the Square" />
 
             <aside class="concept" aria-label="Concept Aside">
@@ -99,13 +134,16 @@
         </main>
 
         <footer aria-label="Site Footer">
-            <img src="/everything110/img/almond-1.svg" alt="Smug Camber" />
+            <img src="../img/almond-1.svg" alt="Smug Camber" />
             <p aria-label="Author">
                 <small>&copy; 2023 almondjoycam</small>
             </p>
             <p aria-label="Site Map Link">
-                <small><a href="/everything110/project.html">Sitemap</a></small>
+                <small><a href="../project.html">Sitemap</a></small>
             </p>
         </footer>
+
+        <script src="../js/jquery-3.7.0.js"></script>
+        <script src="../js/navmenu.js"></script>
     </body>
 </html>
