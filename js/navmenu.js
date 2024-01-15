@@ -26,7 +26,6 @@ function closeMenu(jqObject) {
 itemsWithSubmenu.on('click', ':not(ul.submenu~li>a)', function(e) {
     var menuToggle = $(this);
     var toggleLink = $('a.submenu-toggle');
-    //menuToggle.find('a').not('.submenu-toggle').off('click');
 
     if (menuToggle.parent().attr('class').includes('open')) {
         menuToggle.parent().removeClass('open');
@@ -37,5 +36,4 @@ itemsWithSubmenu.on('click', ':not(ul.submenu~li>a)', function(e) {
     }
 
     e.preventDefault();
-    console.log(e.target);
 });

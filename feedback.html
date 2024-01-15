@@ -83,16 +83,16 @@
         <main>
             <h1>What do you think?</h1>
 
-            <form name="feedback">
+            <form name="feedback" action="form/form.php" method="POST">
                 <fieldset>
                     <ol>
                         <li>
                             <label for="nameField">Name: </label>
-                            <input type="text" id="nameField" required />
+                            <input type="text" name="name" id="nameField" required />
                         </li>
                         <li>
                             <label for="emailField">Email: </label>
-                            <input type="email" id="emailField" required />
+                            <input type="email" name="email" id="emailField" required />
                         </li>
                         <li>
                             <label for="pageSelect">Page: </label>
@@ -100,7 +100,7 @@
                                 <option value="home">Home</option>
                                 <option value="tut0">Tutorial 00: Introduction</option>
                                 <option value="tut1">Tutorial 01: Secrets</option>
-                                <option value="tut2">Tutorial O2: Chirp!</option>
+                                <option value="tut2">Tutorial 02: Chirp!</option>
                                 <option value="tut3">Tutorial 03: Invitation</option>
                                 <option value="tut4">Tutorial 04: Details</option>
                                 <option value="tut5">Tutorial 05: Dinnertime</option>
@@ -113,7 +113,7 @@
                         </li>
                         <li>
                             <label for="commentsField">Comments: </label>
-                            <textarea id="commentsField" required></textarea>
+                            <textarea name="comments" id="commentsField" required></textarea>
                         </li>
                     </ol>
                 </fieldset>
@@ -133,5 +133,6 @@
 
         <script src="js/jquery-3.7.0.js"></script>
         <script src="js/navmenu.js"></script>
+        <script src="form/form.js"></script>
     </body>
 </html>
